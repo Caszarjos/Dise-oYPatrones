@@ -1,0 +1,170 @@
+body {
+    font-size: 16px;
+    color: black;
+  }
+  
+  /** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url('../images/LogoCheckNote.png') no-repeat;
+  width: 270px;
+  height: 100px;
+}
+li button, #TryChecknote{
+  border: none;
+  color: #2a2626;
+  border-radius: 5px;
+  background-color: #0085CF;
+}
+
+#Login{
+    background-color: #c8c8c8;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+li button:hover, #TryChecknote:hover{
+  background-color: lightslategrey;
+  color: black;
+}
+
+#boton {
+  margin-top: 8px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+  /**END HEADER**/
+
+  /**MAIN CONTENT**/
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #676767;
+}
+#block{
+  margin-top: 100px;
+}
+#content{
+  margin-top: 200px;
+  margin-left: 70px;
+}
+hr{
+  margin-top: 100px;
+  height: 2px;
+  background-color: #676767;
+}
+div.row hr{
+  margin-top: 10px;
+}
+#footer{
+  text-align: center;
+}
+#footer #logo-img{
+  display:block;
+  margin:auto;
+}
+#nav-list{
+  margin-bottom: 20px;
+}
+#Checknote{
+  background-color: #2a2626;
+}
+#Pricing{
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 15px;
+}
+div span{
+  font-size: 30px;
+}
+#GetStarted{
+  display:block;
+  margin:auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: transparent;
+  border-radius: 10px;
+}
+#Pricing div{
+  width: 80%;
+  display:block;
+  margin:auto;
+}
+#p-footer {
+  padding-right: 50px;
+  text-align: center;
+}
+  /**END MAIN CONTENT**/
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+   
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img {
+      background: url('../images/LogoCheckNote-Medium.png') no-repeat;
+      width: 200px;
+      height: 80px;
+      margin: 5px 5px 5px 0;
+    }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    #logo-img {
+      background: url('../images/LogoCheckNote-Small.png') no-repeat;
+      width: 125px;
+      height: 60px;
+      margin: 20px 5px 5px 0;
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    #logo-img {
+      background: url('../images/LogoCheckNote-Small.png') no-repeat;
+      width: 125px;
+      height: 60px;
+      margin: 30px 5px 5px 0;
+    }
+  }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+
+  
+
+  }
+  
+  
+  
+  
